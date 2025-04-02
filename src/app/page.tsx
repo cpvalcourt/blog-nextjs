@@ -7,7 +7,7 @@ export default function Home() {
       <div className="container mx-auto p-4 relative">
         <div className="bg-white border-2 border-green-100 rounded-lg p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col justify-center">
-            <h1 className={`text-4xlfont-bold mb-4 ${styles.text_greenia}`}>
+            <h1 className={`text-4xlfont-bold mb-4 ${styles.text_green}`}>
               Welcome
             </h1>
             <p className="text-lg text-gray-700 mb-4">
