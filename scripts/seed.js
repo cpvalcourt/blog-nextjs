@@ -17,7 +17,7 @@ async function seedPosts(client) {
 
     console.log(`Created "posts" table`);
 
-    // Insert data into the "posts" table
+    // Insert data into the "users" table
     const insertedPosts = await Promise.all(
       posts.map(async (post) => {
         return client.sql`
